@@ -7,7 +7,7 @@ const app = express();
 // Connect to MongoDB
 try {
   mongoose.connect(
-    "mongodb+srv://mvalan27:mvalan27@moviedb.pc3gd.mongodb.net/?retryWrites=true&w=majority&appName=moviedb"
+    "mongodb+srv://bharanidharans:123@sampleapp.2a17d.mongodb.net/?retryWrites=true&w=majority&appName=sampleapp"
   );
   console.log("MongoDB connected successfully!");
 } catch (error) {
